@@ -297,6 +297,9 @@ a{
                 padding: 0 0.625rem;
                 letter-spacing: 2px;
             }
+            .navegacion a:hover{
+                background: #546cc3;
+            }
         .aside{
             /*background: #f73f52;*/
             flex: 1 1 auto;
