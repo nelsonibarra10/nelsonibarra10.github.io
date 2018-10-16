@@ -275,12 +275,12 @@ a{
                     margin-top: -5.2rem;
                     margin-left: 0.3125rem;
                     font-family: 'Niramit', sans-serif;
-
                 }
                 h2{
                     font-size: 1.5rem;
                     text-transform: uppercase;
                     padding: 0.3125rem 0.625rem 0;
+                    padding-bottom: 0.6rem;
                     color: #fff;
                     margin-left: 5px;
                 }
