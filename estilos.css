@@ -226,8 +226,9 @@ a{
                 color: #fff;
                 font-weight: 18.75rem;
                 text-align: center;
-                line-height: 2;
+                line-height: 2em;
                 padding: 6.25rem;
+                letter-spacing: 0.3rem;
             }
     .section{
         background: #f7f7f7;
@@ -253,10 +254,18 @@ a{
                 margin-right: 0.625rem;
                 flex: 1 1 45%;
                 background: #ececec;
+                overflow:hidden;
             }
                 .article img{
                     width: 100%;
+                    transition: 200ms;
+                    z-index: -100;
+                   
+                    
                 }
+                    .article img:hover{
+                    -webkit-transform:scale(1.04);transform:scale(1.04);
+                }    
                 .article a{
                     color: #fff;
                     font-size: 0.8125rem;
@@ -280,7 +289,6 @@ a{
                     font-size: 1.5rem;
                     text-transform: uppercase;
                     padding: 0.3125rem 0.625rem 0;
-                    padding-bottom: 0.6rem;
                     color: #fff;
                     margin-left: 5px;
                 }
