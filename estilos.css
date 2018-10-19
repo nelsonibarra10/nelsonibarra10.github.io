@@ -484,6 +484,9 @@ a{
                 flex-direction: column;
                 align-items: center;
             }
+            .footer{
+                display: none;
+            }
             
             
         }
@@ -493,9 +496,7 @@ a{
                 background-attachment: contain;
                 background-size: cover;
             }
-            .footer{
-                display: none;
-            }
+            
         }
         @media all and (max-width:650px){
             .social-bar{
