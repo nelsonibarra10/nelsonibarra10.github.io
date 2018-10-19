@@ -493,6 +493,9 @@ a{
                 background-attachment: contain;
                 background-size: cover;
             }
+            .footer{
+                display: none;
+            }
         }
         @media all and (max-width:650px){
             .social-bar{
