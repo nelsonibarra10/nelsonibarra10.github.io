@@ -86,7 +86,7 @@ a{
               [class^="icon-"], [class*=" icon-"] {
                 /* use !important to prevent issues with browser extensions that change fonts */
                 font-family: 'icomoon' !important;
-                speak: none;
+                speak-as: none;
                 font-style: normal;
                 font-weight: normal;
                 font-variant: normal;
@@ -408,9 +408,7 @@ a{
                 padding: 0.625rem;
                 text-transform: uppercase;
             } 
-            .publicidad{
-                /*background: #ffea85;*/
-            }
+            
     .footer{
         background: #000;
         margin-top: 0.625rem;
