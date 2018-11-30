@@ -37,14 +37,14 @@
                 </div>
             </div>
             <div class="texto-principal">
-                <form>
+                <form action="#" method="POST">
                     <h2>contacto</h2>
-                        <p>Nombre:</p><input type="text" name="Nombre" placeholder="Nombre">
-                        <p>Apellido:</p><input type="text" name="Apellido" placeholder="Apellido">
-                        <p>Correo:</p><input type="text" name="Correo" placeholder="Correo">
-                        <p>Telefono:</p><input type="text" name="Telefono" placeholder="Telefono">
-                        <p>Mensaje:</p><textarea name="Mensajes" placeholder="Escriba aqui su mensaje..."></textarea>
-                        <input type="button" value="Enviar" id="boton">
+                        <p>Nombre:</p><input type="text" name="nombre" placeholder="Nombre" required>
+                        <p>Apellido:</p><input type="text" name="apellido" placeholder="Apellido" required>
+                        <p>Correo:</p><input type="text" name="correo" placeholder="Correo" required>
+                        <p>Telefono:</p><input type="text" name="telefono" placeholder="Telefono" required>
+                        <p>Mensaje:</p><textarea name="mensajes" placeholder="Escriba aqui su mensaje..."></textarea>
+                        <input type="submit" value="Enviar" id="boton">
                 </form>
             </div>
         </header>
